@@ -1,0 +1,6 @@
+index=main sourcetype=linux_secure "Failed password"
+| rex "Failed password for (invalid user )?(?<user>\S+) from (?<src_ip>\S+)"
+| bin _time span=5m
+| stats count as failures dc(user) as users_tried values(user) as usernames by _time src_ip
+| where failures >= 10
+| sort - failures
