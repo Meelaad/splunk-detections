@@ -1,0 +1,6 @@
+index=main sourcetype=linux_secure "Accepted"
+| rex "Accepted (?<method>password|publickey) for (?<user>\S+) from (?<src_ip>\S+)"
+| eval hour=tonumber(strftime(_time, "%H")), day=strftime(_time, "%a")
+| where hour < 8 OR hour >= 18 OR day="Sat" OR day="Sun"
+| stats count as logins min(_time) as first_login max(_time) as last_login by user src_ip method
+| convert ctime(first_login) ctime(last_login)
