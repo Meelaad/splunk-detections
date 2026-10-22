@@ -1,0 +1,6 @@
+index=main sourcetype=linux_secure ("Failed password" OR "Accepted")
+| rex "(?<result>Failed|Accepted) (password|publickey) for (invalid user )?(?<user>\S+) from (?<src_ip>\S+)"
+| sort 0 _time
+| streamstats time_window=10m count(eval(result="Failed")) as failures_last_10m by src_ip
+| where result="Accepted" AND failures_last_10m >= 5
+| table _time src_ip user failures_last_10m
