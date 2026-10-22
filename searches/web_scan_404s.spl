@@ -1,0 +1,5 @@
+index=main sourcetype=access_combined status=404
+| bin _time span=5m
+| stats count as not_found dc(uri_path) as different_paths dc(useragent) as user_agents by _time clientip
+| where not_found >= 50
+| sort - not_found
