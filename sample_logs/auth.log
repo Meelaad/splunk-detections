@@ -1,0 +1,185 @@
+Oct 22 19:44:02 lab-vm sshd[1086]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.1  user=root
+Oct 22 19:44:04 lab-vm sshd[1086]: Failed password for root from 10.10.10.1 port 45624 ssh2
+Oct 22 19:44:06 lab-vm sshd[1086]: Connection closed by authenticating user root 10.10.10.1 port 45624 [preauth]
+Oct 22 19:44:06 lab-vm sshd[1088]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.1  user=root
+Oct 22 19:44:08 lab-vm sshd[1088]: Failed password for root from 10.10.10.1 port 45628 ssh2
+Oct 22 19:44:08 lab-vm sshd[1088]: Connection closed by authenticating user root 10.10.10.1 port 45628 [preauth]
+Oct 22 19:44:08 lab-vm sshd[1092]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.1  user=root
+Oct 22 19:44:10 lab-vm sshd[1092]: Failed password for root from 10.10.10.1 port 45644 ssh2
+Oct 22 19:44:12 lab-vm sshd[1092]: Connection closed by authenticating user root 10.10.10.1 port 45644 [preauth]
+Oct 22 19:44:12 lab-vm sshd[1094]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.1  user=root
+Oct 22 19:44:14 lab-vm sshd[1094]: Failed password for root from 10.10.10.1 port 54612 ssh2
+Oct 22 19:44:14 lab-vm sshd[1094]: Connection closed by authenticating user root 10.10.10.1 port 54612 [preauth]
+Oct 22 19:44:14 lab-vm sshd[1096]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.1  user=root
+Oct 22 19:44:16 lab-vm sshd[1096]: Failed password for root from 10.10.10.1 port 54620 ssh2
+Oct 22 19:44:18 lab-vm sshd[1096]: Connection closed by authenticating user root 10.10.10.1 port 54620 [preauth]
+Oct 22 19:44:18 lab-vm sshd[1100]: Invalid user admin from 10.10.10.1 port 54624
+Oct 22 19:44:18 lab-vm sshd[1100]: pam_unix(sshd:auth): check pass; user unknown
+Oct 22 19:44:18 lab-vm sshd[1100]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.1 
+Oct 22 19:44:19 lab-vm sshd[1100]: Failed password for invalid user admin from 10.10.10.1 port 54624 ssh2
+Oct 22 19:44:20 lab-vm sshd[1100]: Connection closed by invalid user admin 10.10.10.1 port 54624 [preauth]
+Oct 22 19:44:20 lab-vm sshd[1102]: Invalid user admin from 10.10.10.1 port 36198
+Oct 22 19:44:20 lab-vm sshd[1102]: pam_unix(sshd:auth): check pass; user unknown
+Oct 22 19:44:20 lab-vm sshd[1102]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.1 
+Oct 22 19:44:22 lab-vm sshd[1102]: Failed password for invalid user admin from 10.10.10.1 port 36198 ssh2
+Oct 22 19:44:22 lab-vm sshd[1102]: Connection closed by invalid user admin 10.10.10.1 port 36198 [preauth]
+Oct 22 19:44:22 lab-vm sshd[1104]: Invalid user admin from 10.10.10.1 port 36208
+Oct 22 19:44:22 lab-vm sshd[1104]: pam_unix(sshd:auth): check pass; user unknown
+Oct 22 19:44:22 lab-vm sshd[1104]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.1 
+Oct 22 19:44:24 lab-vm sshd[1104]: Failed password for invalid user admin from 10.10.10.1 port 36208 ssh2
+Oct 22 19:44:24 lab-vm sshd[1104]: Connection closed by invalid user admin 10.10.10.1 port 36208 [preauth]
+Oct 22 19:44:24 lab-vm sshd[1109]: Invalid user admin from 10.10.10.1 port 36224
+Oct 22 19:44:24 lab-vm sshd[1109]: pam_unix(sshd:auth): check pass; user unknown
+Oct 22 19:44:24 lab-vm sshd[1109]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.1 
+Oct 22 19:44:26 lab-vm sshd[1109]: Failed password for invalid user admin from 10.10.10.1 port 36224 ssh2
+Oct 22 19:44:26 lab-vm sshd[1109]: Connection closed by invalid user admin 10.10.10.1 port 36224 [preauth]
+Oct 22 19:44:26 lab-vm sshd[1111]: Invalid user admin from 10.10.10.1 port 36240
+Oct 22 19:44:26 lab-vm sshd[1111]: pam_unix(sshd:auth): check pass; user unknown
+Oct 22 19:44:26 lab-vm sshd[1111]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.1 
+Oct 22 19:44:29 lab-vm sshd[1111]: Failed password for invalid user admin from 10.10.10.1 port 36240 ssh2
+Oct 22 19:44:30 lab-vm sshd[1111]: Connection closed by invalid user admin 10.10.10.1 port 36240 [preauth]
+Oct 22 19:44:30 lab-vm sshd[1115]: Invalid user test from 10.10.10.1 port 51482
+Oct 22 19:44:30 lab-vm sshd[1115]: pam_unix(sshd:auth): check pass; user unknown
+Oct 22 19:44:30 lab-vm sshd[1115]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.1 
+Oct 22 19:44:32 lab-vm sshd[1115]: Failed password for invalid user test from 10.10.10.1 port 51482 ssh2
+Oct 22 19:44:33 lab-vm sshd[1115]: Connection closed by invalid user test 10.10.10.1 port 51482 [preauth]
+Oct 22 19:44:33 lab-vm sshd[1117]: Invalid user test from 10.10.10.1 port 51484
+Oct 22 19:44:33 lab-vm sshd[1117]: pam_unix(sshd:auth): check pass; user unknown
+Oct 22 19:44:33 lab-vm sshd[1117]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.1 
+Oct 22 19:44:35 lab-vm sshd[1117]: Failed password for invalid user test from 10.10.10.1 port 51484 ssh2
+Oct 22 19:44:36 lab-vm sshd[1117]: Connection closed by invalid user test 10.10.10.1 port 51484 [preauth]
+Oct 22 19:44:36 lab-vm sshd[1119]: Invalid user test from 10.10.10.1 port 51492
+Oct 22 19:44:36 lab-vm sshd[1119]: pam_unix(sshd:auth): check pass; user unknown
+Oct 22 19:44:36 lab-vm sshd[1119]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.1 
+Oct 22 19:44:37 lab-vm sshd[1119]: Failed password for invalid user test from 10.10.10.1 port 51492 ssh2
+Oct 22 19:44:38 lab-vm sshd[1119]: Connection closed by invalid user test 10.10.10.1 port 51492 [preauth]
+Oct 22 19:44:38 lab-vm sshd[1124]: Invalid user test from 10.10.10.1 port 51506
+Oct 22 19:44:38 lab-vm sshd[1124]: pam_unix(sshd:auth): check pass; user unknown
+Oct 22 19:44:38 lab-vm sshd[1124]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.1 
+Oct 22 19:44:40 lab-vm sshd[1124]: Failed password for invalid user test from 10.10.10.1 port 51506 ssh2
+Oct 22 19:44:41 lab-vm sshd[1124]: Connection closed by invalid user test 10.10.10.1 port 51506 [preauth]
+Oct 22 19:44:41 lab-vm sshd[1126]: Invalid user test from 10.10.10.1 port 48750
+Oct 22 19:44:41 lab-vm sshd[1126]: pam_unix(sshd:auth): check pass; user unknown
+Oct 22 19:44:41 lab-vm sshd[1126]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.1 
+Oct 22 19:44:42 lab-vm sshd[1126]: Failed password for invalid user test from 10.10.10.1 port 48750 ssh2
+Oct 22 19:44:42 lab-vm sshd[1126]: Connection closed by invalid user test 10.10.10.1 port 48750 [preauth]
+Oct 22 19:44:42 lab-vm sshd[1128]: Invalid user oracle from 10.10.10.1 port 48762
+Oct 22 19:44:42 lab-vm sshd[1128]: pam_unix(sshd:auth): check pass; user unknown
+Oct 22 19:44:42 lab-vm sshd[1128]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.1 
+Oct 22 19:44:44 lab-vm sshd[1128]: Failed password for invalid user oracle from 10.10.10.1 port 48762 ssh2
+Oct 22 19:44:45 lab-vm sshd[1128]: Connection closed by invalid user oracle 10.10.10.1 port 48762 [preauth]
+Oct 22 19:44:45 lab-vm sshd[1130]: Invalid user oracle from 10.10.10.1 port 48770
+Oct 22 19:44:45 lab-vm sshd[1130]: pam_unix(sshd:auth): check pass; user unknown
+Oct 22 19:44:45 lab-vm sshd[1130]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.1 
+Oct 22 19:44:47 lab-vm sshd[1130]: Failed password for invalid user oracle from 10.10.10.1 port 48770 ssh2
+Oct 22 19:44:48 lab-vm sshd[1130]: Connection closed by invalid user oracle 10.10.10.1 port 48770 [preauth]
+Oct 22 19:44:48 lab-vm sshd[1132]: Invalid user oracle from 10.10.10.1 port 48784
+Oct 22 19:44:48 lab-vm sshd[1132]: pam_unix(sshd:auth): check pass; user unknown
+Oct 22 19:44:48 lab-vm sshd[1132]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.1 
+Oct 22 19:44:49 lab-vm sshd[1132]: Failed password for invalid user oracle from 10.10.10.1 port 48784 ssh2
+Oct 22 19:44:49 lab-vm sshd[1132]: Connection closed by invalid user oracle 10.10.10.1 port 48784 [preauth]
+Oct 22 19:44:49 lab-vm sshd[1136]: Invalid user oracle from 10.10.10.1 port 45110
+Oct 22 19:44:49 lab-vm sshd[1136]: pam_unix(sshd:auth): check pass; user unknown
+Oct 22 19:44:49 lab-vm sshd[1136]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.1 
+Oct 22 19:44:51 lab-vm sshd[1136]: Failed password for invalid user oracle from 10.10.10.1 port 45110 ssh2
+Oct 22 19:44:52 lab-vm sshd[1136]: Connection closed by invalid user oracle 10.10.10.1 port 45110 [preauth]
+Oct 22 19:44:52 lab-vm sshd[1138]: Invalid user oracle from 10.10.10.1 port 45122
+Oct 22 19:44:52 lab-vm sshd[1138]: pam_unix(sshd:auth): check pass; user unknown
+Oct 22 19:44:52 lab-vm sshd[1138]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.1 
+Oct 22 19:44:54 lab-vm sshd[1138]: Failed password for invalid user oracle from 10.10.10.1 port 45122 ssh2
+Oct 22 19:44:55 lab-vm sshd[1138]: Connection closed by invalid user oracle 10.10.10.1 port 45122 [preauth]
+Oct 22 19:44:55 lab-vm sshd[1140]: Invalid user ubuntu from 10.10.10.1 port 45134
+Oct 22 19:44:55 lab-vm sshd[1140]: pam_unix(sshd:auth): check pass; user unknown
+Oct 22 19:44:55 lab-vm sshd[1140]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.1 
+Oct 22 19:44:57 lab-vm sshd[1140]: Failed password for invalid user ubuntu from 10.10.10.1 port 45134 ssh2
+Oct 22 19:44:58 lab-vm sshd[1140]: Connection closed by invalid user ubuntu 10.10.10.1 port 45134 [preauth]
+Oct 22 19:44:58 lab-vm sshd[1142]: Invalid user ubuntu from 10.10.10.1 port 45148
+Oct 22 19:44:58 lab-vm sshd[1142]: pam_unix(sshd:auth): check pass; user unknown
+Oct 22 19:44:58 lab-vm sshd[1142]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.1 
+Oct 22 19:45:00 lab-vm sshd[1142]: Failed password for invalid user ubuntu from 10.10.10.1 port 45148 ssh2
+Oct 22 19:45:01 lab-vm sshd[1142]: Connection closed by invalid user ubuntu 10.10.10.1 port 45148 [preauth]
+Oct 22 19:45:02 lab-vm sshd[1144]: Invalid user ubuntu from 10.10.10.1 port 53524
+Oct 22 19:45:02 lab-vm sshd[1144]: pam_unix(sshd:auth): check pass; user unknown
+Oct 22 19:45:02 lab-vm sshd[1144]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.1 
+Oct 22 19:45:04 lab-vm sshd[1144]: Failed password for invalid user ubuntu from 10.10.10.1 port 53524 ssh2
+Oct 22 19:45:05 lab-vm sshd[1144]: Connection closed by invalid user ubuntu 10.10.10.1 port 53524 [preauth]
+Oct 22 19:45:05 lab-vm sshd[1146]: Invalid user ubuntu from 10.10.10.1 port 53528
+Oct 22 19:45:05 lab-vm sshd[1146]: pam_unix(sshd:auth): check pass; user unknown
+Oct 22 19:45:05 lab-vm sshd[1146]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.1 
+Oct 22 19:45:06 lab-vm sshd[1146]: Failed password for invalid user ubuntu from 10.10.10.1 port 53528 ssh2
+Oct 22 19:45:11 lab-vm sshd[1146]: Connection closed by invalid user ubuntu 10.10.10.1 port 53528 [preauth]
+Oct 22 19:45:11 lab-vm sshd[1148]: Invalid user ubuntu from 10.10.10.1 port 53542
+Oct 22 19:45:15 lab-vm sshd[1148]: pam_unix(sshd:auth): check pass; user unknown
+Oct 22 19:45:15 lab-vm sshd[1148]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.1 
+Oct 22 19:45:15 lab-vm sshd[1148]: Failed password for invalid user ubuntu from 10.10.10.1 port 53542 ssh2
+Oct 22 19:45:16 lab-vm sshd[1148]: Connection closed by invalid user ubuntu 10.10.10.1 port 53542 [preauth]
+Oct 22 19:45:16 lab-vm sshd[1155]: Invalid user postgres from 10.10.10.1 port 60772
+Oct 22 19:45:16 lab-vm sshd[1155]: pam_unix(sshd:auth): check pass; user unknown
+Oct 22 19:45:16 lab-vm sshd[1155]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.1 
+Oct 22 19:45:19 lab-vm sshd[1155]: Failed password for invalid user postgres from 10.10.10.1 port 60772 ssh2
+Oct 22 19:45:20 lab-vm sshd[1155]: Connection closed by invalid user postgres 10.10.10.1 port 60772 [preauth]
+Oct 22 19:45:20 lab-vm sshd[1157]: Invalid user postgres from 10.10.10.1 port 36760
+Oct 22 19:45:20 lab-vm sshd[1157]: pam_unix(sshd:auth): check pass; user unknown
+Oct 22 19:45:20 lab-vm sshd[1157]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.1 
+Oct 22 19:45:22 lab-vm sshd[1157]: Failed password for invalid user postgres from 10.10.10.1 port 36760 ssh2
+Oct 22 19:45:23 lab-vm sshd[1157]: Connection closed by invalid user postgres 10.10.10.1 port 36760 [preauth]
+Oct 22 19:45:23 lab-vm sshd[1161]: Invalid user postgres from 10.10.10.1 port 36764
+Oct 22 19:45:23 lab-vm sshd[1161]: pam_unix(sshd:auth): check pass; user unknown
+Oct 22 19:45:23 lab-vm sshd[1161]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.1 
+Oct 22 19:45:25 lab-vm sshd[1161]: Failed password for invalid user postgres from 10.10.10.1 port 36764 ssh2
+Oct 22 19:45:25 lab-vm sshd[1161]: Connection closed by invalid user postgres 10.10.10.1 port 36764 [preauth]
+Oct 22 19:45:25 lab-vm sshd[1163]: Invalid user postgres from 10.10.10.1 port 36766
+Oct 22 19:45:25 lab-vm sshd[1163]: pam_unix(sshd:auth): check pass; user unknown
+Oct 22 19:45:25 lab-vm sshd[1163]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.1 
+Oct 22 19:45:27 lab-vm sshd[1163]: Failed password for invalid user postgres from 10.10.10.1 port 36766 ssh2
+Oct 22 19:45:28 lab-vm sshd[1163]: Connection closed by invalid user postgres 10.10.10.1 port 36766 [preauth]
+Oct 22 19:45:28 lab-vm sshd[1165]: Invalid user postgres from 10.10.10.1 port 57656
+Oct 22 19:45:28 lab-vm sshd[1165]: pam_unix(sshd:auth): check pass; user unknown
+Oct 22 19:45:28 lab-vm sshd[1165]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.1 
+Oct 22 19:45:31 lab-vm sshd[1165]: Failed password for invalid user postgres from 10.10.10.1 port 57656 ssh2
+Oct 22 19:45:32 lab-vm sshd[1165]: Connection closed by invalid user postgres 10.10.10.1 port 57656 [preauth]
+Oct 22 19:45:32 lab-vm sshd[1167]: Invalid user guest from 10.10.10.1 port 57668
+Oct 22 19:45:32 lab-vm sshd[1167]: pam_unix(sshd:auth): check pass; user unknown
+Oct 22 19:45:32 lab-vm sshd[1167]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.1 
+Oct 22 19:45:34 lab-vm sshd[1167]: Failed password for invalid user guest from 10.10.10.1 port 57668 ssh2
+Oct 22 19:45:35 lab-vm sshd[1167]: Connection closed by invalid user guest 10.10.10.1 port 57668 [preauth]
+Oct 22 19:45:35 lab-vm sshd[1169]: Invalid user guest from 10.10.10.1 port 57680
+Oct 22 19:45:35 lab-vm sshd[1169]: pam_unix(sshd:auth): check pass; user unknown
+Oct 22 19:45:35 lab-vm sshd[1169]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.1 
+Oct 22 19:45:37 lab-vm sshd[1169]: Failed password for invalid user guest from 10.10.10.1 port 57680 ssh2
+Oct 22 19:45:37 lab-vm sshd[1169]: Connection closed by invalid user guest 10.10.10.1 port 57680 [preauth]
+Oct 22 19:45:37 lab-vm sshd[1173]: Invalid user guest from 10.10.10.1 port 57684
+Oct 22 19:45:37 lab-vm sshd[1173]: pam_unix(sshd:auth): check pass; user unknown
+Oct 22 19:45:37 lab-vm sshd[1173]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.1 
+Oct 22 19:45:39 lab-vm sshd[1173]: Failed password for invalid user guest from 10.10.10.1 port 57684 ssh2
+Oct 22 19:45:40 lab-vm sshd[1173]: Connection closed by invalid user guest 10.10.10.1 port 57684 [preauth]
+Oct 22 19:45:40 lab-vm sshd[1175]: Invalid user guest from 10.10.10.1 port 57786
+Oct 22 19:45:40 lab-vm sshd[1175]: pam_unix(sshd:auth): check pass; user unknown
+Oct 22 19:45:40 lab-vm sshd[1175]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.1 
+Oct 22 19:45:43 lab-vm sshd[1175]: Failed password for invalid user guest from 10.10.10.1 port 57786 ssh2
+Oct 22 19:45:44 lab-vm sshd[1175]: Connection closed by invalid user guest 10.10.10.1 port 57786 [preauth]
+Oct 22 19:45:44 lab-vm sshd[1177]: Invalid user guest from 10.10.10.1 port 57798
+Oct 22 19:45:44 lab-vm sshd[1177]: pam_unix(sshd:auth): check pass; user unknown
+Oct 22 19:45:44 lab-vm sshd[1177]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.1 
+Oct 22 19:45:46 lab-vm sshd[1177]: Failed password for invalid user guest from 10.10.10.1 port 57798 ssh2
+Oct 22 19:45:47 lab-vm sshd[1177]: Connection closed by invalid user guest 10.10.10.1 port 57798 [preauth]
+Oct 22 19:45:48 lab-vm sshd[1181]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.1  user=scanner
+Oct 22 19:45:49 lab-vm sshd[1181]: Failed password for scanner from 10.10.10.1 port 57812 ssh2
+Oct 22 19:45:50 lab-vm sshd[1181]: Connection closed by authenticating user scanner 10.10.10.1 port 57812 [preauth]
+Oct 22 19:45:50 lab-vm sshd[1183]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.1  user=scanner
+Oct 22 19:45:51 lab-vm sshd[1183]: Failed password for scanner from 10.10.10.1 port 41872 ssh2
+Oct 22 19:45:52 lab-vm sshd[1183]: Connection closed by authenticating user scanner 10.10.10.1 port 41872 [preauth]
+Oct 22 19:45:52 lab-vm sshd[1185]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.1  user=scanner
+Oct 22 19:45:54 lab-vm sshd[1185]: Failed password for scanner from 10.10.10.1 port 41876 ssh2
+Oct 22 19:45:56 lab-vm sshd[1185]: Connection closed by authenticating user scanner 10.10.10.1 port 41876 [preauth]
+Oct 22 19:45:56 lab-vm sshd[1189]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.1  user=scanner
+Oct 22 19:45:58 lab-vm sshd[1189]: Failed password for scanner from 10.10.10.1 port 41878 ssh2
+Oct 22 19:46:00 lab-vm sshd[1189]: Connection closed by authenticating user scanner 10.10.10.1 port 41878 [preauth]
+Oct 22 19:46:00 lab-vm sshd[1193]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.10.10.1  user=scanner
+Oct 22 19:46:02 lab-vm sshd[1193]: Failed password for scanner from 10.10.10.1 port 33230 ssh2
+Oct 22 19:46:03 lab-vm sshd[1193]: Connection closed by authenticating user scanner 10.10.10.1 port 33230 [preauth]
+Oct 22 19:46:04 lab-vm sshd[1195]: Accepted publickey for scanner from 10.10.10.1 port 33236 ssh2: ED25519 SHA256:rSehJA8HsPBYVDthli4ml5L8pmLNZ/4I5lht/ZynJ1g
+Oct 22 19:46:05 lab-vm sshd[1195]: pam_unix(sshd:session): session opened for user scanner(uid=1000) by (uid=0)
+Oct 22 19:46:12 lab-vm sshd[1229]: Received disconnect from 10.10.10.1 port 33236:11: disconnected by user
+Oct 22 19:46:12 lab-vm sshd[1229]: Disconnected from user scanner 10.10.10.1 port 33236
+Oct 22 19:46:12 lab-vm sshd[1195]: pam_unix(sshd:session): session closed for user scanner
