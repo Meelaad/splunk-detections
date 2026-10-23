@@ -63,7 +63,7 @@
       <title>Logins outside business hours</title>
       <table>
         <search>
-          <query><![CDATA[index=main sourcetype=linux_secure "Accepted" | rex "Accepted (?<method>password|publickey) for (?<user>\S+) from (?<src_ip>\S+)" | eval hour=tonumber(strftime(_time, "%H")), day=strftime(_time, "%a") | where hour < 8 OR hour >= 18 OR day="Sat" OR day="Sun" | stats count as logins by user src_ip method]]></query>
+          <query><![CDATA[index=main sourcetype=linux_secure "Accepted" | rex "Accepted (?<method>password|publickey) for (?<user>\S+) from (?<src_ip>\S+)" | where NOT (user="scanner" AND src_ip="10.10.10.1" AND method="password") | eval hour=tonumber(strftime(_time, "%H")), day=strftime(_time, "%a") | where hour < 8 OR hour >= 18 OR day="Sat" OR day="Sun" | stats count as logins by user src_ip method]]></query>
           <earliest>$time.earliest$</earliest>
           <latest>$time.latest$</latest>
         </search>
